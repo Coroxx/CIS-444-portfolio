@@ -1,11 +1,10 @@
 # Spring break media
 
-Replace the SVG placeholders in this folder with real spring break photos or videos before submitting the assignment.
+The blog currently uses two free Unsplash images:
 
-Recommended:
+- `spring-break-coast.jpg` - Daniel Salcius, Laguna Beach, CA
+- `spring-break-food.jpg` - Natali Hordiiuk, San Diego, CA
 
-- `spring-break-coast.jpg`
-- `spring-break-city.jpg`
-- Optional: `spring-break-video.mp4`
+Unsplash images are free to use under the Unsplash License. Attribution is not required, but it is appreciated, so the blog displays short credits.
 
-After adding real files, update the `image` paths in `src/data.js`.
+If you want the blog to be more personal, replace these files with your own spring break photos or videos and update `src/data.js`.
