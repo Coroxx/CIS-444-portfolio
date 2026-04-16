@@ -406,11 +406,24 @@ a {
   background: var(--paper);
 }
 
-.blog-post img {
+.blog-media {
+  margin: 0;
+  background: var(--soft);
+}
+
+.blog-media img {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 2.2rem);
   min-height: 360px;
   object-fit: cover;
+}
+
+.blog-media figcaption {
+  min-height: 2.2rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .blog-content {
@@ -453,7 +466,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .blog-post img {
+  .blog-media img {
     min-height: 260px;
   }
 }

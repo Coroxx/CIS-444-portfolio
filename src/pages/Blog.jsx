@@ -23,7 +23,10 @@ function Blog() {
         <div className="blog-list">
           {springBreakPosts.map((post) => (
             <article className="blog-post" key={post.title}>
-              <img src={post.image} alt={post.alt} />
+              <figure className="blog-media">
+                <img src={post.image} alt={post.alt} />
+                <figcaption>{post.credit}</figcaption>
+              </figure>
               <div className="blog-content">
                 <p className="eyebrow">{post.date}</p>
                 <h2>{post.title}</h2>

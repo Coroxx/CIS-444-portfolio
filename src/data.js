@@ -81,8 +81,9 @@ export const springBreakPosts = [
   {
     title: 'Spring Break in Southern California',
     date: 'March 2026',
-    image: mediaPath('spring-break-coast.svg'),
-    alt: 'Placeholder for a spring break coast photo',
+    image: mediaPath('spring-break-coast.jpg'),
+    alt: 'Laguna Beach coastline in Southern California',
+    credit: 'Photo by Daniel Salcius on Unsplash',
     paragraphs: [
       'Spring break was a chance to slow down after a busy semester at California State University San Marcos and explore more of the region around campus. I wanted the week to feel different from a normal school schedule, so I planned it around simple moments: walking near the coast, trying local food, taking photos, and spending time with friends outside of class.',
       'One of the best parts of the break was seeing how different Southern California feels depending on where you are. A morning can start near campus, continue with tacos or coffee in a busy neighborhood, and end with a sunset by the ocean. That mix of study abroad life, new places, and everyday routines made the experience feel personal rather than just touristic.',
@@ -92,8 +93,9 @@ export const springBreakPosts = [
   {
     title: 'Food, Friends, and a Change of Pace',
     date: 'March 2026',
-    image: mediaPath('spring-break-city.svg'),
-    alt: 'Placeholder for a spring break city photo',
+    image: mediaPath('spring-break-food.jpg'),
+    alt: 'Food table in San Diego during a spring break outing',
+    credit: 'Photo by Natali Hordiiuk on Unsplash',
     paragraphs: [
       'The second part of my spring break was less about checking places off a list and more about enjoying the rhythm of the week. I tried new restaurants, took longer walks than usual, and spent time with people I met during my exchange year. Small details stood out: conversations over food, warm evenings, and the feeling of discovering a place without rushing.',
       'Food was one of the easiest ways to experience the culture around me. California has a lot of variety, and every meal felt like a small introduction to a different part of the area. I especially enjoyed how casual and social meals felt, whether it was something quick after a day outside or a longer dinner with friends.',
